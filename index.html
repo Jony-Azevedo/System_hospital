@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="assets/css/normalizeMy.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <title>Cadastro</title>
+</head>
+<body>
+    <header class="cabecalho">
+        <figure class="logo">
+            <img src="assets/img/logo.png" alt="Conexão Saúde">
+        </figure>
+        <span><h1 class="titulo-sistema">CONEXÃO SAÚDE</h1></span>
+    </header>
+    <hr>
+    <main>
+        <div class="container-form">
+            <h2>Cadastro Paciente</h2>
+        <form id="cadastro-form"  method="post">
+            <div>
+                <label for="id">Identificador</label>
+                <input type="text" id="id" name="id" placeholder="Ex:001" minlength="1">
+            </div>
+            <div>
+                <label for="name">Nome</label>
+                <input type="text" id="name" name="name" placeholder="Ex: José Henrique" minlength="4">
+            </div>
+            <div>
+                <label for="nasc">Nascimento</label>
+                <input type="date"  id="nasc" name="nasc" required>
+            </div>
+            <div>
+                <label for="endereco">Endereço</label>
+                <input type="text" id="endereco" name="endereco" placeholder="Ex: Rua A n°36" minlength="5">
+            </div>
+            <button type="submit" id="enviar" title="enviar">Cadastrar</button>
+        </form>
+        </div>
+        <div id="resposta"></div>
+        <span class="modificado">
+            <a href="assets/php/cadastrados.php" title="Listagem Pacientes">LISTAGEM DE PACIENTE</a>
+        </span>
+        <div class="links">
+            <ul class="lista_links">
+                <li><a href="https://github.com/Jony-Azevedo" target="_blank"><img src="assets/img/github.png" alt="GitHub" title="GitHub"></a></li>
+                <li><a href="https://www.linkedin.com/in/jony-azevedo-36b751190/" target="_blank"><img src="assets/img/linkedin.png" alt="LinkedIn" title="LinkedIn"></a></li>
+            </ul>
+        </div>
+    </main>
+    <footer class="container-rodape">
+        <div class="rodape">
+            &copy; Copyrigth 2000-2023 Jony Azevedo
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+    <script src="assets/js/main.js"></script>
+    
+</body>
+</html>
