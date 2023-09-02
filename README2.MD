@@ -11,23 +11,17 @@ Página de Pacientes:
 
 - Listar todos os pacientes com seus detalhes.
 - Opção para adicionar um novo paciente, que abre um formulário.
-- Ao clicar em um paciente, mostrar um perfil detalhado com suas consultas e compartilhamentos de quarto. (talvez tenha)
 
 Página de Médicos:
 
 - Listar todos os médicos com suas especialidades.
 - Opção para adicionar um novo médico, cabre um formulário.
-- Ao clicar em um médico, mostrar um perfil detalhado com suas consultas realizadas. (não terá)
 
 Página de Quartos:
 
 - Exibir uma lista de quartos com detalhes como número do quarto e status de ocupação.
 - Opção para adicionar um novo quarto ou atualizar as informações existentes.
-- Possibilidade de visualizar os pacientes que compartilham um quarto específico.
-
-Página de Relatórios:
-
-- Exibir gráficos ou tabelas com estatísticas relevantes, como número de consultas por médico ou distribuição de especialidades.
+- Possibilidade de visualizar os pacientes que compartilham um quarto específico
 
 Layout Geral:
 
