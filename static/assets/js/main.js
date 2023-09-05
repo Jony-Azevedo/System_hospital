@@ -38,7 +38,7 @@ function validarFormulario() {
     };
 
     var xhr = new XMLHttpRequest();
-    xhr.open('POST', '/processar_formulario', true);
+    xhr.open('POST', '/cadastrar_paciente', true);
     xhr.setRequestHeader('Content-Type', 'application/json;charset=UTF-8');
     xhr.onreadystatechange = function () {
         if (xhr.readyState === 4) {

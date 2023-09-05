@@ -4,9 +4,11 @@ from flask import Flask, jsonify
 
 app = Flask(__name__)
 
+# Configuração do diretório estático para arquivos
+app.static_folder = 'static'
 
 # Rota para receber os dados do formulário
-@app.route('/processar_formulario', methods=['POST'])
+@app.route('/cadastrar_paciente', methods=['POST'])
 def processar_formulario():
     try:
         # Recupere os dados do formulário
